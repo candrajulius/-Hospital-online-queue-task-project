@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjectTugas</string>
+    <string-array name="opsi_poli">
+        <item>Poli Anak</item>
+        <item>Poli Kandungan</item>
+        <item>Poli Gigi</item>
+        <item>Poli Bedah</item>
+    </string-array>
+</resources>

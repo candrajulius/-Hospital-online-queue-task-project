@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama pasien"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama pasien"
+            android:id="@+id/name_pasien"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat pasien"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat pasien"
+            android:id="@+id/address_pasien"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam Masuk"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam Masuk"
+            android:id="@+id/jam_masuk_pasien"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lama Menunggu"
+            android:id="@+id/title_lama_menunggu"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lama Menunggu"
+            android:id="@+id/lama_menunggu"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam Keluar"
+            android:id="@+id/title_jam_keluar"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam Keluar"
+            android:id="@+id/jam_keluar"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor Telepon"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor telepon"
+            android:id="@+id/nmr_telepon"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poli"
+            android:id="@+id/title_poli"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poli"
+            android:id="@+id/poli_pasien"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:id="@+id/title_status"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:id="@+id/status_pasien"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selesai"
+            android:id="@+id/btn_finish"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            app:cornerRadius="20dp"
+            android:backgroundTint="@android:color/holo_red_light" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
