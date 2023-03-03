@@ -39,8 +39,8 @@ class Poli : AppCompatActivity()
 
     }
 
-    private fun showAllDataPasien(it: List<Pasien>){
-        adapterPasien.submitListData(it)
+        private fun showAllDataPasien(it: List<Pasien>){
+            adapterPasien.submitListData(it)
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
